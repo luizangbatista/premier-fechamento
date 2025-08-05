@@ -88,3 +88,4 @@ if uploaded_file:
         else:
             st.warning("Selecione ao menos um clube.")
 
+
