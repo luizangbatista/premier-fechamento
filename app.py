@@ -40,7 +40,7 @@ if uploaded_file:
         selected_sheets = []
         for nome_aba in clubes_com_movimentacao:
             if nome_aba in wb_original.sheetnames:
-                if st.checkbox(nome_aba, value=FALSE):
+                if st.checkbox(nome_aba, value=False):
                     selected_sheets.append(nome_aba)
 
         if selected_sheets:
@@ -87,5 +87,6 @@ if uploaded_file:
                 )
         else:
             st.warning("Selecione ao menos um clube.")
+
 
 
